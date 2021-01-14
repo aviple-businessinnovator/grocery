@@ -19,7 +19,19 @@ nav .navbar-brand{
     font-weight: 800;
     letter-spacing: 1px; 
     color: black;
-    text-shadow: 2px 2px #ff8080;
+	text-shadow: 2px 2px #ff8080;
+}
+nav .parent{ 
+    font-size: 20px;
+    position: relative;
+    font-weight: 700;
+    color: black;
+    letter-spacing: 1px; 
+    font: normal 500;
+    text-shadow: 2px 2px #ebebe0;
+    text-transform: uppercase;
+    text-align: center;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
 nav .parent-link{ 
@@ -27,7 +39,7 @@ nav .parent-link{
     position: relative;
     font-weight: 700;
     color: black;
-    letter-spacing: 4px; 
+    letter-spacing: 1px; 
     font: normal 500;
     text-shadow: 2px 2px #ebebe0;
     text-transform: uppercase;
@@ -72,6 +84,7 @@ nav .child-link:hover{
 nav .navbar-toggler i{
 	color: black;
 	animation: 1s ease-out 0s 1 slideInFromRight;
+	padding-top: 7px;
 }
 
 nav .navbar-nav .shoppingcart a i{
@@ -82,7 +95,6 @@ nav .navbar-nav .shoppingcart a i{
 nav .navbar-nav .shoppingcart a:hover{
 	text-shadow: 2px 2px #b3ffb3;
 } 
-
 #features{
 	margin-left: 80px;
 	margin-right: 80px;
